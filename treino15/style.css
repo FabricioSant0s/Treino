@@ -4,9 +4,20 @@
     border: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
- }
+}
+body {
+    background-color: darkgray;
+}
 
-
+main{
+    background-color: gray;
+    width: 500px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    position: center;
+}
 main form {
     display: flex;
     flex-direction: column;
@@ -34,7 +45,7 @@ main form input {
     width: 200px;
     height: 20px;
     border-radius: 3px;
-    background-color: darkgrey;
+    background-color: rgb(24, 22, 22);
     outline: none;
     
 }
